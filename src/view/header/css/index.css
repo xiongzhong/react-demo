@@ -1,0 +1,41 @@
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.header-container .logo {
+    margin: 0;
+    color: #ffffff;
+}
+.header-divider {
+    height: 44px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.header-menu-wrap {
+    display: flex;
+}
+.header-menu-wrap .menu-link > a {
+    display: inline;
+    color: #ffffff;
+}
+.header-menu-wrap .menu-link > .anticon {
+    color: #ffffff;
+}
+.header-menu-wrap .menu-link.ant-menu-item-active > .anticon {
+    color: #1890ff;
+    transition: color 0.15s;
+}
+.header-menu-wrap .menu-link.ant-menu-item-selected > .anticon,
+.header-menu-wrap .menu-link.ant-menu-item-selected > a {
+    color: #1890ff;
+}
+.header-menu-wrap .menu-link.ant-menu-item-active,
+.header-menu-wrap .menu-link.ant-menu-item-selected,
+.header-menu-wrap .menu-link {
+    border-bottom: none;
+}
+.header-menu-wrap .ant-menu-horizontal {
+    line-height: 64px;
+    background-color: transparent;
+}

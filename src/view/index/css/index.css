@@ -1,0 +1,30 @@
+.index-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+
+}
+.index-container .ant-menu {
+
+}
+.index-container .menu-link {
+    text-align: center;
+}
+.index-container .ant-menu-inline, .ant-menu-vertical {
+    border-right: none;
+}
+.index-body {
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #cccccc;
+    overflow: hidden;
+}
+.paging {
+    margin: 40px 0;
+}
+.description img {
+    width: 100%;
+}
+.list-meta {
+    padding: 0 24px;
+}
